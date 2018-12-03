@@ -1,5 +1,5 @@
 
-# -*- coding:utf-
+# -*- coding:utf-*-
 
 # 让python2 使用中文编码
 
@@ -32,6 +32,7 @@ print(os.path.dirname(path))
 
 # join 路径名
 print(os.path.join('tmp', 'data', os.path.basename(path)))
+print(os.name)
 
 # 检测文件是否存在
 if os.path.exists('/etc/passwd'):
